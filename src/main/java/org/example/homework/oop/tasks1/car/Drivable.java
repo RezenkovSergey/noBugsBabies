@@ -1,4 +1,4 @@
-package org.example.homework.tasks.car;
+package org.example.homework.oop.tasks1.car;
 
 public interface Drivable {
 
