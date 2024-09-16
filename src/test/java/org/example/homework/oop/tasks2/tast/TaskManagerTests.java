@@ -13,7 +13,7 @@ public class TaskManagerTests {
     private final Task secondTask = new Task();
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
         String firstTaskDescription = "First task description";
         int firstTaskPriority = 1;
         String secondTaskDescription = "Second task description";
@@ -36,7 +36,7 @@ public class TaskManagerTests {
     }
 
     @Test
-    public void removingTaskTest(){
+    public void removingTaskTest() {
         TaskManager taskManager = new TaskManager();
         taskManager.addNewTask(secondTask);
         taskManager.removeTask(secondTask);
